@@ -11,5 +11,6 @@ public:
         if(value < INT_MIN || value > INT_MAX)
             return 0;
         else return (int)value;
+        
     }
 };
