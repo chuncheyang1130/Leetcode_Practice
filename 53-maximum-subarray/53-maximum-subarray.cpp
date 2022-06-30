@@ -9,5 +9,6 @@ public:
             cur_min = min(cur_min, sum);
         }
         return cur_max;
+        
     }
 };
