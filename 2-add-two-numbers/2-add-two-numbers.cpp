@@ -33,7 +33,6 @@ public:
                 carry = (l1->val + carry) / 10;
                 l1 = l1->next;
             }
-            
             cur = cur->next;
         }
         
