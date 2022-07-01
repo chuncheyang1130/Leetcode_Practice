@@ -9,5 +9,6 @@ public:
         }
         
         return min(prev+cost[stairNum-2], cur+cost[stairNum-1]);
+        
     }
 };
