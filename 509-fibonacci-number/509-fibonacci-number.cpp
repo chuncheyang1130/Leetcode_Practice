@@ -5,12 +5,7 @@ public:
         if(n <= 1)
             return n;
         
-        int two_num_prev = 0, prev = 1, cur;
-        for(int i = 0; i < n-1; i++){
-            cur = two_num_prev + prev;
-            two_num_prev = prev;
-            prev = cur;
-        }
-        return prev;
+        double phi = ((double)sqrt(5) + 1)/2;
+        return round((pow(phi, n) - (pow(-phi+1, n))) / sqrt(5));
     }
 };
