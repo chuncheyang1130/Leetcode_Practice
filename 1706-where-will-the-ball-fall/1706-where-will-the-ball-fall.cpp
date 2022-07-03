@@ -13,7 +13,9 @@ public:
             int row = 0, col = i;
             out = false;
             while(row >= 0 && col < width && col >= 0){
-                if(down){
+                if(up){
+                    break;
+                }else if(down){
                     down = false;
                     if(grid[row][col] == 1){
                         left = false;
@@ -22,8 +24,6 @@ public:
                         left = true;
                         col--;
                     }
-                }else if(up){
-                    break;
                 }else if(left){
                     if(grid[row][col] == 1){
                         row--;
