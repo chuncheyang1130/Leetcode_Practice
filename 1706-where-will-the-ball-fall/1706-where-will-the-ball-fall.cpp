@@ -26,19 +26,17 @@ public:
                     }
                 }else if(left){
                     if(grid[row][col] == 1){
-                        row--;
-                        up = true;
+                        break;
                     }else{
                         row++;
                         down = true;
                     }
                 }else{
-                    if(grid[row][col] == 1){
+                    if(grid[row][col] == -1){
+                        break;
+                    }else{
                         row++;
                         down = true;
-                    }else{
-                        row--;
-                        up = true;
                     }
                 }
                 
