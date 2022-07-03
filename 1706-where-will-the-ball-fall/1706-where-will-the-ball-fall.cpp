@@ -31,7 +31,6 @@ public:
                 }else{
                     row++;
                     down = true;
-                    
                 }
                 if(row == depth){
                     out = true;
