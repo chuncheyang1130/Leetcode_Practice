@@ -13,7 +13,7 @@ public:
             int row = 0, col = i;
             out = false;
             while(row >= 0 && col < width && col >= 0){
-                if(up){
+                if(up || (!down && left && grid[row][col] == 1) || (!down && !left && grid[row][col] == -1)){
                     break;
                 }else if(down){
                     down = false;
@@ -25,21 +25,14 @@ public:
                         col--;
                     }
                 }else if(left){
-                    if(grid[row][col] == 1){
-                        break;
-                    }else{
-                        row++;
-                        down = true;
-                    }
+                    row++;
+                    down = true;
+                    
                 }else{
-                    if(grid[row][col] == -1){
-                        break;
-                    }else{
-                        row++;
-                        down = true;
-                    }
+                    row++;
+                    down = true;
+                    
                 }
-                
                 if(row == depth){
                     out = true;
                     break;
