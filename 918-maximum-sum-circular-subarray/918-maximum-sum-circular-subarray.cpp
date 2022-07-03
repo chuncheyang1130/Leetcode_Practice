@@ -10,18 +10,20 @@ public:
         }
         
         int M = cur_max;
-        if(nums.size() >= 3){
-            sum = 0;
-            cur_max = 0;
-            cur_min = INT_MAX;
-            for(int i = 1; i < nums.size()-1; i++){
-                sum += nums[i];
-                cur_min = min(cur_min, sum-cur_max);
-                cur_max = max(cur_max, sum);
-            }
+        if(nums.size() < 3)
+            return M;
 
-            M = max(M, sum + nums.front() + nums.back() - cur_min);
+        sum = 0;
+        cur_max = 0;
+        cur_min = INT_MAX;
+        for(int i = 1; i < nums.size()-1; i++){
+            sum += nums[i];
+            cur_min = min(cur_min, sum-cur_max);
+            cur_max = max(cur_max, sum);
         }
+
+        M = max(M, sum + nums.front() + nums.back() - cur_min);
+        
         return M;
     }
 };
