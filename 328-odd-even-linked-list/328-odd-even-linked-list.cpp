@@ -27,9 +27,10 @@ public:
             cur->next = cur->next->next;
             cur = cur->next;
             pos++;
+            end->next = nullptr;
         }
         
-        end->next = nullptr;
+        //end->next = nullptr;
         return head;
     }
 };
