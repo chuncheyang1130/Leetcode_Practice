@@ -14,7 +14,7 @@ public:
         if(head == nullptr || head->next == nullptr || head->next->next == nullptr)
             return head;
         
-        int len = 1, pos = 1;
+        int len = 1;
         ListNode *cur = head, *end = head;
         while(end->next != nullptr){
             end = end->next;
