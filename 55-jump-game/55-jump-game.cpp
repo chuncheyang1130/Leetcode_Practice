@@ -13,8 +13,6 @@ public:
                 else l = cur_jump;
             }
         }
-        if(l >= r)
-            return true;
-        else return false;
+        return true;
     }
 };
