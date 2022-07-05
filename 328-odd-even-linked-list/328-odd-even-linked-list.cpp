@@ -21,16 +21,15 @@ public:
             len++;
         }
         
-        while(pos <= len/2){
+        len /= 2;
+        while(len--){
             end->next = cur->next;
             end = end->next;
             cur->next = cur->next->next;
             cur = cur->next;
-            pos++;
-            end->next = nullptr;
         }
         
-        //end->next = nullptr;
+        end->next = nullptr;
         return head;
     }
 };
