@@ -21,13 +21,10 @@ public:
             len++;
         }
         
-        ListNode* del;
         while(pos <= len/2){
             end->next = new ListNode(cur->next->val);
             end = end->next;
-            del = cur->next;
             cur->next = cur->next->next;
-            delete del;
             cur = cur->next;
             pos++;
         }
