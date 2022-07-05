@@ -22,12 +22,13 @@ public:
         }
         
         while(pos <= len/2){
-            end->next = new ListNode(cur->next->val);
+            end->next = cur->next;
             end = end->next;
             cur->next = cur->next->next;
             cur = cur->next;
             pos++;
         }
+        end->next = nullptr;
         return head;
     }
 };
