@@ -28,6 +28,7 @@ public:
             cur = cur->next;
             pos++;
         }
+        
         end->next = nullptr;
         return head;
     }
