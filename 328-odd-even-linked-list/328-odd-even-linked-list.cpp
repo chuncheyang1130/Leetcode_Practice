@@ -22,9 +22,8 @@ public:
         }
         
         while(pos <= len/2){
-            end->next = new ListNode(cur->next->val, cur->next);
+            end->next = new ListNode(cur->next->val);
             end = end->next;
-            end->next = nullptr;
             cur->next = cur->next->next;
             cur = cur->next;
             pos++;
