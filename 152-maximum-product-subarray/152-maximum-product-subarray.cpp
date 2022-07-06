@@ -13,6 +13,5 @@ public:
             M = max(local_max, M);
         }
         return M;
-        
     }
 };
