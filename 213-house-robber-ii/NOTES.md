@@ -4,6 +4,6 @@
 ​
 ### Complexity
 - O(n) in time
-- O(n) in space
+- O(n) in extra space
 ​
 ​
