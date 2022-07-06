@@ -3,6 +3,6 @@
 ​
 ### Complexity
 - O(nlogn) in time
-- O(n) in space
+- O(n) in extra space
 ​
 ​
