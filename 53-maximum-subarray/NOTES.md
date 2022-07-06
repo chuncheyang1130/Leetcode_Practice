@@ -5,5 +5,5 @@
 
 ### Complexity
 - O(n) in time
-- O(n) in space
+- O(1) in extra space
   
