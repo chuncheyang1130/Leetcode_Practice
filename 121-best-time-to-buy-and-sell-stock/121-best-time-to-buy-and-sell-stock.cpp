@@ -7,5 +7,6 @@ public:
             cur_min = min(cur_min, prices[i]);
         }
         return M;
+        
     }
 };
