@@ -9,5 +9,6 @@ public:
             M = max(front+values[i]-i, M);
         }
         return M;
+        
     }
 };
