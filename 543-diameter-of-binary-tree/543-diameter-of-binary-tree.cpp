@@ -14,13 +14,14 @@ public:
     pair<int,int> trav(TreeNode* root){
         int left = 0, right = 0;
         int M = 0;
+        pair<int, int> tmp;
         if(root->left != nullptr){
-            pair<int, int> tmp = trav(root->left);
+            tmp = trav(root->left);
             left = tmp.first+1;
             M = max(M, tmp.second);
         }
         if(root->right != nullptr){
-            pair<int, int> tmp = trav(root->right);
+            tmp = trav(root->right);
             right = tmp.first+1;
             M = max(M, tmp.second);
         }
