@@ -28,6 +28,5 @@ public:
         if(root == nullptr)
             return false;
         return traverse(root, targetSum, 0);
-        
     }
 };
