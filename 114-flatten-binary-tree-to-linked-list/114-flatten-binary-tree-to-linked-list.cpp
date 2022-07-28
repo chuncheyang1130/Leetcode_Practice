@@ -11,26 +11,32 @@
  */
 class Solution {
 public:
-    vector<TreeNode*> order;
-    void traverse(TreeNode* root){
-        order.push_back(root);
-        if(root->left != nullptr)
-            traverse(root->left);
-        if(root->right != nullptr)
-            traverse(root->right);
+    TreeNode* traverse(TreeNode* root){
+        TreeNode *rightLeaf = nullptr, *leftLeaf = nullptr;
+        //cout << root->val << endl;
+        if(root->left == nullptr && root->right == nullptr)
+            return root;
+        
+        if(root->right != nullptr){
+            rightLeaf = traverse(root->right);
+        }
+        if(root->left != nullptr){
+            leftLeaf = traverse(root->left);
+            if(rightLeaf != nullptr){
+                leftLeaf->right = root->right;
+                root->right = root->left;
+                root->left = nullptr;
+            }else{
+                root->right = root->left;
+                rightLeaf = leftLeaf;
+                root->left = nullptr;
+            }
+        }
+        return rightLeaf;
     }
     
     void flatten(TreeNode* root){
-        TreeNode* head = new TreeNode();
-        TreeNode* cur = head;
-        if(root != nullptr){
-            traverse(root);
-            for(int i = 0; i < order.size(); i++){
-                cur->right = order[i];
-                cur = cur->right;
-                cur->left = nullptr;
-            }
-            cur->right = nullptr;
-        }
+        if(root != nullptr)
+            TreeNode* tmp = traverse(root);
     }
 };
