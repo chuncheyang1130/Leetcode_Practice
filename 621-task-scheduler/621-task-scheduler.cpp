@@ -40,7 +40,6 @@ public:
             }
             round_task.clear();
         }
-
         return count;
     }
 };
