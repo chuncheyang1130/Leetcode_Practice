@@ -36,6 +36,5 @@ public:
         vector<int> tmp;
         traverse(root, targetSum, 0, path, tmp);
         return path;
-        
     }
 };
