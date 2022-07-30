@@ -9,11 +9,9 @@ public:
             tmp.clear();
             for(int j = 0; j < words2[i].size(); j++)
                 tmp[words2[i][j]]++;
-            for(auto it = tmp.begin(); it != tmp.end(); it++){
-                if(table.find(it->first) == table.end())
-                    table[it->first] = it->second;
-                else table[it->first] = max(it->second, table[it->first]);
-            }
+            for(auto it = tmp.begin(); it != tmp.end(); it++)
+                table[it->first] = max(it->second, table[it->first]);
+            
         }
         
         for(int i = 0; i < words1.size(); i++){
