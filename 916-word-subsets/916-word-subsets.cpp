@@ -22,9 +22,7 @@ public:
             for(int j = 0; j < words1[i].size(); j++)
                 tmp[words1[i][j]]++;
             for(auto it = table.begin(); it != table.end(); it++){
-                if(tmp.find(it->first) != tmp.end() && tmp[it->first] >= it->second)
-                    continue;
-                else{
+                if(tmp.find(it->first) == tmp.end() || tmp[it->first] < it->second){
                     match = false;
                     break;
                 }
@@ -32,7 +30,6 @@ public:
             if(match)
                 ans.push_back(words1[i]);
         }
-        
         return ans;
     }
 };
