@@ -1,5 +1,4 @@
-class Node{
-public:
+struct Node{
     int l, r, val;
     Node* left;
     Node* right;
