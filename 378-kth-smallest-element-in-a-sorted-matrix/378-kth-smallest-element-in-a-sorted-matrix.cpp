@@ -10,16 +10,12 @@ public:
         for(int i = 0; i < n; i++)
             cur[i] = matrix[i][0];
         
+        
         int ans;
         for(int i = 1; i <= k; i++){
-            int m = INT_MAX;
-            int ind = 0;
-            for(int j = 0; j < n; j++){
-                if(cur[j] < m){
-                    m = cur[j];
-                    ind = j;
-                }
-            }
+            int ind = min_element(cur.begin(), cur.end())-cur.begin();
+            int m = cur[ind];
+            
             if(i == k)
                 ans = m;
             else{
