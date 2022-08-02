@@ -11,10 +11,10 @@ public:
             cur[i] = matrix[i][0];
         
         
-        int ans;
+        int ans, ind, m;
         for(int i = 1; i <= k; i++){
-            int ind = min_element(cur.begin(), cur.end())-cur.begin();
-            int m = cur[ind];
+            ind = min_element(cur.begin(), cur.end())-cur.begin();
+            m = cur[ind];
             
             if(i == k)
                 ans = m;
@@ -26,5 +26,6 @@ public:
             }
         }
         return ans;
+        
     }
 };
