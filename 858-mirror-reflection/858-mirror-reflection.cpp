@@ -14,6 +14,5 @@ public:
         if(q % 2 == 0)
             return 0;
         return 1;
-        
     }
 };
