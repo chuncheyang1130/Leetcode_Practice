@@ -11,9 +11,9 @@ public:
 
         if(p % 2 == 0)
             return 2;
-        else if(q % 2 == 0)
+        if(q % 2 == 0)
             return 0;
-        else return 1;
+        return 1;
         
     }
 };
