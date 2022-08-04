@@ -5,9 +5,8 @@ public:
             return triangle[row][pos];
         if(dp[row][pos] != INT_MAX)
             return dp[row][pos];
-        
-        int m = min(minimumSub(triangle, dp, row+1, pos), minimumSub(triangle, dp, row+1, pos+1));
-        dp[row][pos] = m + triangle[row][pos];
+    
+        dp[row][pos] = min(minimumSub(triangle, dp, row+1, pos), minimumSub(triangle, dp, row+1, pos+1)) + triangle[row][pos];
         return dp[row][pos];
     }
     
