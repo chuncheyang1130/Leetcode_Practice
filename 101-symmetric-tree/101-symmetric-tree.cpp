@@ -12,11 +12,6 @@
 class Solution {
 public:
     bool traverse(TreeNode* l, TreeNode* r){
-        if((l->left == nullptr && r->right != nullptr) || (l->left != nullptr && r->right == nullptr))
-            return false;
-        if((l->right == nullptr && r->left != nullptr) || (l->right != nullptr && r->left == nullptr))
-            return false;
-        
         bool sym = false;
         if(l->left != nullptr && r->right != nullptr)   
             sym = traverse(l->left, r->right);
