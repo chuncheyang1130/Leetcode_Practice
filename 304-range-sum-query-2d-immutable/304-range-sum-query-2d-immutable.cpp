@@ -11,12 +11,10 @@ public:
             }
         }
         
-        for(int i = 1; i < matrix.size(); i++){
-            for(int j = 0; j < matrix[0].size(); j++){
+        for(int i = 1; i < matrix.size(); i++)
+            for(int j = 0; j < matrix[0].size(); j++)
                 sum[i][j] += sum[i-1][j];
-            }
-        }
-        
+
     }
     int sumRegion(int row1, int col1, int row2, int col2) {
         if(row1 == 0 && col1 == 0)
