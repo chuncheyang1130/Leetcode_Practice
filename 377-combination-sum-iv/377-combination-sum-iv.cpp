@@ -9,7 +9,6 @@ public:
             if(target >= nums[i])
                 dp[target] += combination(nums, dp, target-nums[i]);
         }
-        //cout << target << " " << dp[target] << endl;
         return dp[target];
     }
     
