@@ -18,26 +18,25 @@ public:
             int n = discover.size();
             while(n--){
                 pair<int, int> pos = discover.front();
-                cout << pos.first << " " << pos.second << endl;
                 discover.pop();
                 if(pos.first > 0 && grid[pos.first-1][pos.second] == 1){
                     discover.push(pair<int, int>(pos.first-1, pos.second));
-                    grid[pos.first-1][pos.second] = 2;
+                    grid[pos.first-1][pos.second]++;
                     noRotten--;
                 }
                 if(pos.first < grid.size()-1 && grid[pos.first+1][pos.second] == 1){
                     discover.push(pair<int, int>(pos.first+1, pos.second));
-                    grid[pos.first+1][pos.second] = 2;
+                    grid[pos.first+1][pos.second]++;
                     noRotten--;
                 }
                 if(pos.second > 0 && grid[pos.first][pos.second-1] == 1){
                     discover.push(pair<int, int>(pos.first, pos.second-1));
-                    grid[pos.first][pos.second-1] = 2;
+                    grid[pos.first][pos.second-1]++;
                     noRotten--;
                 }
                 if(pos.second < grid[0].size()-1 && grid[pos.first][pos.second+1] == 1){
                     discover.push(pair<int, int>(pos.first, pos.second+1));
-                    grid[pos.first][pos.second+1] = 2;
+                    grid[pos.first][pos.second+1]++;
                     noRotten--;
                 }
             }
