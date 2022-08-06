@@ -11,13 +11,12 @@ public:
             for(int j = 1; j <= mat[i-1].size(); j++)
                 sum[i][j] += sum[i-1][j];  
         
-        int l, r, u, d;
         for(int i = 0; i < mat.size(); i++){
             for(int j = 0; j < mat[i].size(); j++){
-                l = (j-k>=0)?j-k:0;
-                r = (j+k<=mat[i].size()-1)?j+k+1:mat[i].size();
-                d = (i-k>=0)?i-k:0;
-                u = (i+k<=mat.size()-1)?i+k+1:mat.size();
+                int l = (j-k>=0)?j-k:0;
+                int r = (j+k<=mat[i].size()-1)?j+k+1:mat[i].size();
+                int d = (i-k>=0)?i-k:0;
+                int u = (i+k<=mat.size()-1)?i+k+1:mat.size();
                 
                 block_sum[i][j] = sum[u][r] - sum[u][l] - sum[d][r] + sum[d][l];
             }
