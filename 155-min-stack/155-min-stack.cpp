@@ -14,9 +14,11 @@ public:
     void pop() {
         int val = st.top();
         st.pop();
-        table[val]--;
-        if(table[val] == 0)
+        if(table[val] == 1){
             table.erase(val);
+            return;
+        }
+        table[val]--;
     }
     
     int top() {
