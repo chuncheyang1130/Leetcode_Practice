@@ -8,10 +8,12 @@ public:
         
         for(int i = 0; i < arr.size(); i++){
             table[arr[i]]++;
-            for(int j = 0; j < i; j++){
+            for(int j = 0; j < i && arr[j] <= sqrt(arr[i]); j++){
                 if(arr[i] % arr[j] == 0){
                     int tmp = (long long)table[arr[j]] * table[arr[i]/arr[j]] % m;
                     table[arr[i]] = (int)((table[arr[i]] + tmp) % m);
+                    if(arr[i] != arr[j] * arr[j])
+                        table[arr[i]] = (int)((table[arr[i]] + tmp) % m);
                 }
             }
         }
