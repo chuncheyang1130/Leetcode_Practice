@@ -2,24 +2,24 @@ class Solution {
 public:
     bool canPartition(vector<int>& nums) {
         int total = 0;
+        vector<bool> table(40001, false);
         
-        unordered_map<int, int> table;
-        vector<int> new_element;
-        
-        for(int i = 0; i < nums.size(); i++){
-            for(auto it = table.begin(); it != table.end(); it++)
-                new_element.push_back(it->first+nums[i]);
-            
-            for(int j = 0; j < new_element.size(); j++)
-                table[new_element[j]] = 1;
-            
-            table[nums[i]] = 1;
-            new_element.clear();
+        for(int i = 0; i < nums.size(); i++)
             total += nums[i];
-        }
         
         if(total % 2)
             return false;
-        else return table.find(total/2) != table.end();
+        
+        for(int i = 0; i < nums.size(); i++){
+            for(int j = table.size()-1; j >= 1; j--)
+                if(table[j])
+                    table[j+nums[i]] = true;
+            
+            table[nums[i]] = true;
+            if(table[total/2])
+                return true;
+        }
+        
+        return false;
     }
 };
