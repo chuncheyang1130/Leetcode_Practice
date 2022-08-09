@@ -4,7 +4,7 @@ public:
         int m = (int)1e9 + 7;
         sort(arr.begin(), arr.end());
         unordered_map<int, int> table;
-        
+        int total = 0;
         
         for(int i = 0; i < arr.size(); i++){
             table[arr[i]]++;
@@ -16,11 +16,8 @@ public:
                         table[arr[i]] = (int)((table[arr[i]] + tmp) % m);
                 }
             }
+            total = (total + table[arr[i]]) % m;
         }
-        
-        int total = 0;
-        for(auto it = table.begin(); it != table.end(); it++)
-            total = (total + it->second) % m;
         return total;
     }
 };
