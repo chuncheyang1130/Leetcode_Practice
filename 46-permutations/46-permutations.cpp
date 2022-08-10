@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void dfs(vector<int>& nums, vector<bool>& used, vector<vector<int>>& ans, vector<int>& cur, int pos, int len){
+    void permute(vector<int>& nums, vector<bool>& used, vector<vector<int>>& ans, vector<int>& cur, int pos, int len){
         if(pos == len){
             ans.push_back(cur);
             return;
@@ -10,7 +10,7 @@ public:
             if(!used[i]){
                 cur[pos] = nums[i];
                 used[i] = true;
-                dfs(nums, used, ans, cur, pos+1, len);
+                permute(nums, used, ans, cur, pos+1, len);
                 used[i] = false;
             }
         }
@@ -20,7 +20,7 @@ public:
         vector<vector<int>> ans;
         vector<int> cur(nums.size());
         
-        dfs(nums, used, ans, cur, 0, nums.size());
+        permute(nums, used, ans, cur, 0, nums.size());
         return ans;
     }
 };
