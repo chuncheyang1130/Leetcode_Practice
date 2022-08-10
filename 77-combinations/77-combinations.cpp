@@ -6,8 +6,8 @@ public:
             return;
         }    
         
-        for(int i = 1; i < used.size(); i++){
-            if(!used[i] && i > cur[pos-1]){
+        for(int i = cur[pos-1]+1; i < used.size(); i++){
+            if(!used[i]){
                 cur[pos] = i;
                 used[i] = true;
                 combine(ans, used, cur, pos+1, len);
