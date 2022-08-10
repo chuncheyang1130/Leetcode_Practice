@@ -6,10 +6,10 @@ public:
             return;
         }
         
-        unordered_map<int, int> table;
+        set<int> st;
         for(int i = 0; i < nums.size(); i++){
-            if(table.find(nums[i]) == table.end() && !used[i]){
-                table[nums[i]] = 1;
+            if(st.find(nums[i]) == st.end() && !used[i]){
+                st.insert(nums[i]);
                 used[i] = true;
                 cur[pos] = nums[i];
                 permute(nums, used, ans, cur, pos+1, len);
