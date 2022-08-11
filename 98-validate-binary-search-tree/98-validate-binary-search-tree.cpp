@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode* root, map<int, pair<int,int>>& table){
+    bool isValidBST(TreeNode* root, unordered_map<int, pair<int,int>>& table){
         table[root->val] = pair<int, int>({root->val, root->val});
         
         if(root->left == nullptr && root->right == nullptr){
@@ -36,7 +36,7 @@ public:
     }
     
     bool isValidBST(TreeNode* root) {
-        map<int, pair<int, int>> table;
+        unordered_map<int, pair<int, int>> table;
         return isValidBST(root, table);
     }
 };
