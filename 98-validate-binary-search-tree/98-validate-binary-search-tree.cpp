@@ -11,32 +11,25 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode* root, unordered_map<int, pair<int,int>>& table){
-        table[root->val] = pair<int, int>({root->val, root->val});
-        
-        if(root->left == nullptr && root->right == nullptr){
-            table[root->val] = pair<int, int>({root->val, root->val});
-            return true;
-        }
-        
+    bool isValidBST(TreeNode* root, long long m, long long M){
         if(root->right != nullptr){
-            bool valid = isValidBST(root->right, table);
-            if(!valid || root->val >= table[root->right->val].first)
+            bool valid = isValidBST(root->right, (long long)root->val, M);
+            if(!valid)
                 return false;
-            table[root->val].second = table[root->right->val].second;
         }
         
         if(root->left != nullptr){
-            bool valid = isValidBST(root->left, table);
-            if(!valid || root->val <= table[root->left->val].second)
+            bool valid = isValidBST(root->left, m, (long long)root->val);
+            if(!valid)
                 return false;
-            table[root->val].first = table[root->left->val].first;
         }
-        return true;
+        
+        if(root->val > m && root->val < M)
+            return true;
+        else return false;
     }
     
     bool isValidBST(TreeNode* root) {
-        unordered_map<int, pair<int, int>> table;
-        return isValidBST(root, table);
+        return isValidBST(root, LLONG_MIN, LLONG_MAX);
     }
 };
