@@ -27,7 +27,6 @@ public:
                     break;
             }
         }
-        
         return par.empty();
     }
 };
