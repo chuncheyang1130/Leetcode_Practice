@@ -1,6 +1,6 @@
 class Solution {
 public:
-    map<char, int> table = {
+    unordered_map<char, int> table = {
         {'M', 1000},
         {'D', 500},
         {'C', 100},
