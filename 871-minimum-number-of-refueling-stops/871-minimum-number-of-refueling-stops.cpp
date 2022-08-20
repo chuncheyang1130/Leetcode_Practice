@@ -33,7 +33,5 @@ public:
             }
             return -1;
         }else return fuel_time;
-        
-        
     }
 };
