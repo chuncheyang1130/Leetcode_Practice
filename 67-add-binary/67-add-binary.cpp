@@ -12,7 +12,6 @@ public:
                 na = a[len_a - i] == '1';
             if(i <= len_b)
                 nb = b[len_b - i] == '1';
-            cout << na << " " << nb << " " << nc << endl;
             nc = na + nb + carry;
             carry = nc / 2;
             nc = nc % 2;
