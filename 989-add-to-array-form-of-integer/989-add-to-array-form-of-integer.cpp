@@ -20,8 +20,7 @@ public:
                 n += vk[len_k-i];
             
             carry = n / 10;
-            n %= 10;
-            ans.insert(ans.begin(), n);
+            ans.insert(ans.begin(), n % 10);
         }
         if(carry)
             ans.insert(ans.begin(), carry);
