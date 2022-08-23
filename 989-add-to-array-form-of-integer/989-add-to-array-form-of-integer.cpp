@@ -4,7 +4,8 @@ public:
         vector<int> vk, ans;
         
         while(k > 0){
-            vk.insert(vk.begin(), k % 10);
+            int n = k % 10;
+            vk.insert(vk.begin(), n);
             k /= 10;
         }
         
@@ -12,13 +13,12 @@ public:
         int carry = 0;
         
         for(int i = 1; i <= len; i++){
-            int n = 0;
+            int n = carry;
             if(i <= len_n)
                 n += num[len_n-i];
             if(i <= len_k)
                 n += vk[len_k-i];
             
-            n += carry;
             carry = n / 10;
             n %= 10;
             ans.insert(ans.begin(), n);
