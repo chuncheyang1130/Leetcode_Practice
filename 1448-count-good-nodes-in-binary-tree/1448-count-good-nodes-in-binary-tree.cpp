@@ -11,26 +11,26 @@
  */
 class Solution {
 public:
-    void traverse(TreeNode* root, int& total){
+    int traverse(TreeNode* root){
+        int total = 0;
         if(root->left != nullptr){
             if(root->left->val >= root->val)
                 total++;
             else root->left->val = root->val;
             
-            traverse(root->left, total);
+            total += traverse(root->left);
         }
         if(root->right != nullptr){
             if(root->right->val >= root->val)
                 total++;
             else root->right->val = root->val;
             
-            traverse(root->right, total);
+            total += traverse(root->right);
         }
+        return total;
     }
     
     int goodNodes(TreeNode* root) {
-        int total = 1;
-        traverse(root, total);
-        return total;
+        return 1 + traverse(root);
     }
 };
