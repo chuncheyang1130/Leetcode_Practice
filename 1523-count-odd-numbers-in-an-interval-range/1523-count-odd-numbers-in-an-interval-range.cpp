@@ -7,11 +7,9 @@ public:
         if(high % 2 == 0)
             high--;
 
-        high -= low;
-        high /= 2;
-        high++;
+        int num = (high - low) / 2 + 1;
 
-        return high;
+        return num;
 
     }
 };
