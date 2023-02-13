@@ -10,6 +10,5 @@ public:
         int num = (high - low) / 2 + 1;
 
         return num;
-
     }
 };
