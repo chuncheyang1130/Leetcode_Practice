@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
         vector<vector<int>> answer(2, vector<int>());
-        vector<int> win(1e5+1, 0), lose(1e5+1, 0);
+        int win[100001] = {0}, lose[100001] = {0};
         int max_num = 0;
         
         for (int i = 0; i < matches.size(); i++){
