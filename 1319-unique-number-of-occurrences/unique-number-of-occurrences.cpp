@@ -1,21 +1,25 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        int occur[2001] = {0};
-        unordered_map<int, int> cnt;
+        
+        unordered_map<int, int> record;
+        sort(arr.begin(), arr.end());
 
-        for (int i = 0; i < arr.size(); i++){
-            occur[arr[i]+1000]++;
+        int cnt = 1;
+
+        for (int i = 1; i < arr.size(); i++){
+            if (arr[i] != arr[i-1]){
+                if (record[cnt] > 0){
+                    return false;
+                }else{
+                    record[cnt]++;
+                    cnt = 1;
+                }
+            }else cnt++;
         }
 
-        for (int i = 0; i < 2001; i++){
-            cnt[occur[i]]++;
-        }
-
-        for (int i = 1; i < 1000; i++){
-            if (cnt[i] > 1)
-                return false;
-        }
+        if (record[cnt] > 0)
+            return false;
 
         return true;
     }
