@@ -12,7 +12,7 @@ public:
                 if (record[cnt] > 0){
                     return false;
                 }else{
-                    record[cnt]++;
+                    record[cnt] = 1;
                     cnt = 1;
                 }
             }else cnt++;
