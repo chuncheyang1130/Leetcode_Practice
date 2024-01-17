@@ -1,16 +1,18 @@
 class RandomizedSet {
 public:
     int size = 0;
-    int arr[200001];
+    int* arr;
     unordered_map<int, int> arr_pos;
 
     RandomizedSet() {
-        srand(time(NULL));   
+        srand(time(NULL));
+        arr = (int*)calloc(1, sizeof(int));   
     }
     
     bool insert(int val) {
         if (arr_pos[val] == 0){
             size++;
+            arr = (int*)realloc(arr, sizeof(int) * (size+1));
             arr[size] = val;
             arr_pos[val] = size;
             return true;
@@ -21,11 +23,15 @@ public:
         if (arr_pos[val] > 0){
             int old_pos = arr_pos[val];
             int tail = arr[size];
-            size--;
+            
+            if (old_pos != size){
+                arr[old_pos] = tail;
+                arr_pos[tail] = old_pos;
+            }
 
-            arr[old_pos] = tail;
-            arr_pos[tail] = old_pos;
             arr_pos[val] = 0;
+            size--;
+            arr = (int*)realloc(arr, sizeof(int) * (size+1));
 
             return true;
         }else return false;
