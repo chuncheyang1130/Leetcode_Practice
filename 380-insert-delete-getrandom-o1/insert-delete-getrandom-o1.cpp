@@ -1,7 +1,7 @@
 class RandomizedSet {
 public:
     int size = 0;
-    int arr[8000];
+    int arr[6000];
     unordered_map<int, int> arr_pos;
 
     RandomizedSet() {
