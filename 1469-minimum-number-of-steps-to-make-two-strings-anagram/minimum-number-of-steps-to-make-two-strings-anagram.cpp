@@ -1,8 +1,7 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-        // int s_cnt[26] = {0}, t_cnt[26] = {0};
-        vector<int> s_cnt(26, 0), t_cnt(26, 0);
+        int s_cnt[26] = {0}, t_cnt[26] = {0};
         int n = s.size();
 
         for (int i = 0; i < n; i++)
@@ -13,8 +12,11 @@ public:
         
 
         int cnt = 0;
-        for (int i = 0; i < 26; i++)
-            cnt += abs(s_cnt[i]-t_cnt[i]);
+        for (int i = 0; i < 26; i++){
+            if (s_cnt[i] >= t_cnt[i])
+                cnt += s_cnt[i] - t_cnt[i];
+            else cnt += t_cnt[i] - s_cnt[i];
+        }
 
         return cnt/2;
 
