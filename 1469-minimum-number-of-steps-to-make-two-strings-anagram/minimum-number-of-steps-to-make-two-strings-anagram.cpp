@@ -14,7 +14,7 @@ public:
         for (int i = 0; i < 26; i++)
             cnt += abs(s_cnt[i]-t_cnt[i]);
 
-        cnt /= 2;
+        cnt = cnt >> 1;
 
         return cnt;
 
