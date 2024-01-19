@@ -5,19 +5,15 @@ public:
         int n = matrix.size();
 
         for (int row = 1; row < n; row++){
-            for (int col = 0; col < n; col++){
-                int left = INF, right = INF, mid = INF;
-                
-                if (col > 0)
-                    left = matrix[row-1][col-1];
-                
-                if (col < n-1)
-                    right = matrix[row-1][col+1];
-                
-                mid = matrix[row-1][col];
 
-                matrix[row][col] += min({left, right, mid});
+            matrix[row][0] += min(matrix[row-1][0], matrix[row-1][1]);
+
+            for (int col = 1; col < n-1; col++){
+                matrix[row][col] += 
+                        min({matrix[row-1][col-1], matrix[row-1][col+1], matrix[row-1][col]});
             }
+
+            matrix[row][n-1] += min(matrix[row-1][n-1], matrix[row-1][n-2]);
         }
         
         return *min_element(matrix[n-1].begin(), matrix[n-1].end());
