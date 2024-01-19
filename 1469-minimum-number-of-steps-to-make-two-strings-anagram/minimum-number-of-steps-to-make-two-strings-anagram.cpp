@@ -1,7 +1,8 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-        int s_cnt[26] = {0}, t_cnt[26] = {0};
+        // int s_cnt[26] = {0}, t_cnt[26] = {0};
+        vector<int> s_cnt(26, 0), t_cnt(26, 0);
         int n = s.size();
 
         for (int i = 0; i < n; i++)
