@@ -15,6 +15,7 @@ public:
             cnt += abs(s_cnt[i]-t_cnt[i]);
 
         cnt /= 2;
+
         return cnt;
 
     }
