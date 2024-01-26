@@ -48,7 +48,7 @@ public:
             // }
         }
 
-        long long cnt = 0;
+        int cnt = 0;
         for (int i = 1; i <= n; i++){
             cnt += (*cur_grid)[0][i];
             cnt = cnt % MOD;
@@ -63,6 +63,6 @@ public:
             cnt = cnt % MOD;
         }
 
-        return (int)cnt;
+        return cnt;
     }
 };
