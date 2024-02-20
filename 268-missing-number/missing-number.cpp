@@ -2,11 +2,11 @@ class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int max_num = nums.size();
-        int remain = (max_num + 1) * max_num / 2;
+        int remain = 0;
 
         for (int i = 0; i < nums.size(); i++)
-            remain -= nums[i];
+            remain += i - nums[i];
 
-        return remain;
+        return remain + max_num;
     }
 };
