@@ -6,7 +6,7 @@ public:
         // vector<int> odd;
         // odd.push_back(-1);
 
-        int odd[50002];
+        int odd[nums.size()+2];
         int idx = 0;
         odd[idx++] = -1;
 
