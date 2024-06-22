@@ -6,18 +6,19 @@ public:
         // vector<int> odd;
         // odd.push_back(-1);
 
-        int odd[50002] = {0};
         int idx = 0;
-        int l = 0, r = k+1;
-
-        odd[idx++] = -1;
+        int l = -1, r = k;
 
         for (int i = 0; i < nums.size(); i++){
             if (nums[i] % 2){
-                odd[idx++] = i;
+                nums[idx++] = i;
 
-                if (idx >= k+2){
-                    count += (odd[l+1] - odd[l]) * (odd[r] - odd[r-1]);
+                if (idx >= k+1 && l == -1){
+                    count += (nums[l+1] + 1) * (nums[r] - nums[r-1]);
+                    l++;
+                    r++;
+                }else if (idx >= k+1){
+                    count += (nums[l+1] - nums[l]) * (nums[r] - nums[r-1]);
                     l++;
                     r++;
                 }
@@ -26,10 +27,10 @@ public:
                 
         }
 
-        odd[idx++] = nums.size();
-
-        if (r < idx)
-            count += (odd[l+1] - odd[l]) * (odd[r] - odd[r-1]);
+        if (r == k && l == -1 && r <= idx)
+            count += (nums[l+1] + 1) * (nums.size() - nums[r-1]);
+        else if (r <= idx && idx >= k+1)
+            count += (nums[l+1] - nums[l]) * (nums.size() - nums[r-1]);
 
         return count;
     }
