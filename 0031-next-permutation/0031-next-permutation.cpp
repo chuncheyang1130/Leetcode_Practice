@@ -5,53 +5,31 @@ public:
         if (nums.size() == 1)
             return;
 
-        int inc_pos = -1;
-
-        int count[101] = {0};
-        int sub_count[101] = {0};
-
-        for (int i = 0; i < nums.size(); i++)
-            count[nums[i]]++;
+        int dec_point = -1;
 
         for (int i = 0; i < nums.size()-1; i++){
             if (nums[i] < nums[i+1]){
-                inc_pos = i;
-
-                for (int j = 0; j <= 100; j++){
-                    if (sub_count[j] > 0){
-                        count[j] -= sub_count[j];
-                        sub_count[j] = 0;
-                    }
-                }
+                dec_point = i;
             }
-
-            sub_count[nums[i]]++;
         }
 
         int min_n = 0;
 
-        if (inc_pos == -1){
+        if (dec_point == -1){
             reverse(nums.begin(), nums.end());
             return;
         }
         
-        for (int n = nums[inc_pos]+1; n <= 100; n++){
-            if (count[n] > 0){
-                nums[inc_pos] = n;
-                count[n]--;
-                break;
-            }
+        int swap_pos = dec_point+1;
+        for (int i = dec_point+1; i < nums.size(); i++){
+            if (nums[i] <= nums[swap_pos] && nums[i] > nums[dec_point])
+                swap_pos = i;
         }
 
-        for (int pos = inc_pos+1; pos < nums.size(); pos++){
-            for (int n = min_n; n <= 100; n++){
-                if (count[n] > 0){
-                    nums[pos] = n;
-                    count[n]--;
-                    min_n = n;
-                    break;
-                }
-            }
-        }
+        int tmp = nums[dec_point];
+        nums[dec_point] = nums[swap_pos];
+        nums[swap_pos] = tmp;
+
+        reverse(nums.begin()+dec_point+1, nums.end());
     }
 };
