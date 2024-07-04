@@ -31,16 +31,7 @@ public:
         int min_n = 0;
 
         if (inc_pos == -1){
-            for (int i = 0; i < nums.size(); i++){
-                for (int n = min_n; n <= 100; n++){
-                    if (count[n] > 0){
-                        nums[i] = n;
-                        count[n]--;
-                        min_n = n;
-                        break;
-                    }
-                }                
-            }
+            reverse(nums.begin(), nums.end());
             return;
         }
         
