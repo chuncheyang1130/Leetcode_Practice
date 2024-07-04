@@ -7,8 +7,8 @@ public:
 
         int inc_pos = -1;
 
-        int count[101] = {0};
-        int sub_count[101] = {0};
+        short count[101] = {0};
+        short sub_count[101] = {0};
 
         for (int i = 0; i < nums.size(); i++)
             count[nums[i]]++;
@@ -30,7 +30,7 @@ public:
             }
         }
 
-        int min_n = 0;
+        short min_n = 0;
 
         if (inc_pos == -1){
             for (int i = 0; i < nums.size(); i++){
