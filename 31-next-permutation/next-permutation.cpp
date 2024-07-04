@@ -7,8 +7,8 @@ public:
 
         int inc_pos = -1;
 
-        int count[101] = {0};
-        int sub_count[101] = {0};
+        int count[202] = {0};
+        // int sub_count[101] = {0};
 
         for (int i = 0; i < nums.size(); i++)
             count[nums[i]]++;
@@ -18,14 +18,14 @@ public:
                 inc_pos = i;
 
                 for (int j = 0; j <= 100; j++){
-                    if (sub_count[j] > 0){
-                        count[j] -= sub_count[j];
-                        sub_count[j] = 0;
+                    if (count[101+j] > 0){
+                        count[j] -= count[101+j];
+                        count[101+j] = 0;
                     }
                 }
             }
 
-            sub_count[nums[i]]++;
+            count[101+nums[i]]++;
         }
 
         int min_n = 0;
