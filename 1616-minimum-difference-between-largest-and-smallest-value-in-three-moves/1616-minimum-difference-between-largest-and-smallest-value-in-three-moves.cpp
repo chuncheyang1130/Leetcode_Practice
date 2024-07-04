@@ -7,12 +7,13 @@ public:
 
         sort(nums.begin(), nums.end());
 
+        int window_size = nums.size() - 3;
         int diff = INT_MAX;
         int temp = 0;
 
-        for (int i = 0; i + nums.size() - 3 <= nums.size(); i++){
-            temp = nums[i+nums.size()-4] - nums[i];
-
+        for (int i = 0; i + window_size <= nums.size(); i++){
+            temp = nums[i+window_size-1] - nums[i];
+            
             if (temp < diff)
                 diff = temp;
         }
