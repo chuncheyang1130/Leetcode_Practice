@@ -36,7 +36,6 @@ public:
             for (int i = 0; i < nums.size(); i++){
                 for (int n = min_n; n <= 100; n++){
                     if (count[n] > 0){
-                        // cout << n << endl;
                         nums[i] = n;
                         count[n]--;
                         min_n = n;
@@ -47,14 +46,12 @@ public:
             return;
         }
         
-        int found = false;
-        for (int n = 0; n <= 100; n++){
-            if (count[n] > 0 && found){
+        for (int n = nums[inc_pos]+1; n <= 100; n++){
+            if (count[n] > 0){
                 nums[inc_pos] = n;
                 count[n]--;
                 break;
-            }else if (count[n] > 0 && n == nums[inc_pos])
-                found = true;
+            }
         }
 
         for (int pos = inc_pos+1; pos < nums.size(); pos++){
