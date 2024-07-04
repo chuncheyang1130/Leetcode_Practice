@@ -9,9 +9,12 @@ public:
 
         int window_size = nums.size() - 3;
         int diff = INT_MAX;
+        int temp = 0;
 
         for (int i = 0; i + window_size <= nums.size(); i++){
-            diff = min(diff, nums[i+window_size-1]-nums[i]);
+            temp = nums[i+window_size-1] - nums[i];
+            if (temp < diff)
+                diff = temp;
         }
 
         return diff;
