@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points">2182. Find the Minimum and Maximum Number of Nodes Between Critical Points</a></h2><h3>Medium</h3><hr><p>A <strong>critical point</strong> in a linked list is defined as <strong>either</strong> a <strong>local maxima</strong> or a <strong>local minima</strong>.</p>
+<h2><a href="https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points">Find the Minimum and Maximum Number of Nodes Between Critical Points</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>A <strong>critical point</strong> in a linked list is defined as <strong>either</strong> a <strong>local maxima</strong> or a <strong>local minima</strong>.</p>
 
 <p>A node is a <strong>local maxima</strong> if the current node has a value <strong>strictly greater</strong> than the previous node and the next node.</p>
 
