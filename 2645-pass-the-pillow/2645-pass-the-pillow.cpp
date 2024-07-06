@@ -5,7 +5,6 @@ public:
         int round_time = (n-1) * 2;
         int remain_time = time % round_time;
 
-        bool one_way = false;
         if (remain_time <= n-1)
             return remain_time + 1;
         else return n - remain_time % (n-1); 
