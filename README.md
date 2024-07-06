@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
 ## Array
 |  |
 | ------- |
@@ -46,4 +47,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
