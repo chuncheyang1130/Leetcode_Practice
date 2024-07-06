@@ -33,8 +33,8 @@ public:
             node_num++;
         }
 
-        for (int i = 0; i < crit_pt.size(); i++)
-            cout << crit_pt[i] << " ";
+        // for (int i = 0; i < crit_pt.size(); i++)
+        //     cout << crit_pt[i] << " ";
 
         sort(crit_pt.begin(), crit_pt.end());
 
