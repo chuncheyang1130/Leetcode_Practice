@@ -4,9 +4,10 @@ public:
         
         int remain = numBottles;
         int total = numBottles;
+        int new_exchange;
 
         while (remain / numExchange){
-            int new_exchange = remain / numExchange;
+            new_exchange = remain / numExchange;
             total += new_exchange; 
             remain = remain % numExchange + new_exchange;
         }
