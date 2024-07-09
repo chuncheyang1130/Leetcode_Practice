@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/water-bottles-ii">3336. Water Bottles II</a></h2><h3>Medium</h3><hr><p>You are given two integers <code>numBottles</code> and <code>numExchange</code>.</p>
+<h2><a href="https://leetcode.com/problems/water-bottles-ii">Water Bottles II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two integers <code>numBottles</code> and <code>numExchange</code>.</p>
 
 <p><code>numBottles</code> represents the number of full water bottles that you initially have. In one operation, you can perform one of the following operations:</p>
 
