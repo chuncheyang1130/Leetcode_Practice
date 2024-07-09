@@ -8,7 +8,6 @@ public:
             numBottles = numBottles - numExchange + 1;
             numExchange++;
         }
-        
 
         if (numBottles)
             total += numBottles;
