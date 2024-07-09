@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1803-average-waiting-time) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
+| [3336-water-bottles-ii](https://github.com/angusyang901130/Leetcode_Practice/tree/master/3336-water-bottles-ii) |
 ## Array
 |  |
 | ------- |
@@ -55,4 +56,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1642-water-bottles](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
+| [3336-water-bottles-ii](https://github.com/angusyang901130/Leetcode_Practice/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
