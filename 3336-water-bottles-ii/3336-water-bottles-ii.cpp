@@ -5,10 +5,13 @@ public:
 
         while (numBottles / numExchange){
             total += numExchange;
-            numBottles -= (numExchange - 1);
+            numBottles = numBottles - numExchange + 1;
             numExchange++;
         }
 
-        return total + numBottles;
+        if (numBottles)
+            total += numBottles;
+
+        return total;
     }
 };
