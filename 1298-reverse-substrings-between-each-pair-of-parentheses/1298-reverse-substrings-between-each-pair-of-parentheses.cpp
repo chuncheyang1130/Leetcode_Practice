@@ -15,7 +15,6 @@ public:
                     stk.pop();
                 }
             }
-            
         }
 
         return str;
