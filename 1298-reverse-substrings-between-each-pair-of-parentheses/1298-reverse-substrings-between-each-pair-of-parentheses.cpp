@@ -3,7 +3,6 @@ public:
     string reverseParentheses(string s) {
         string str = "";
         stack<int> stk;
-        
 
         for (int i = 0; i < s.size(); i++){
             if (s[i] != '(' && s[i] != ')'){
