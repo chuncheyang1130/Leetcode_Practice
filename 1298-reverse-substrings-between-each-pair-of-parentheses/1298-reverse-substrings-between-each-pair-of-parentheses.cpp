@@ -12,9 +12,8 @@ public:
                 if (s[i] == '('){
                     stk.push(i-space);
                 }else{
-                    int left_par = stk.top();
+                    reverse(order.begin()+stk.top(), order.end());
                     stk.pop();
-                    reverse(order.begin()+left_par, order.end());
                 }
                 space++;
             }
