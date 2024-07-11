@@ -18,8 +18,7 @@ public:
                 space++;
             }
         }
-        
-        
+
         return str;
     }
 };
