@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1803-average-waiting-time) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
+| [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 | [3336-water-bottles-ii](https://github.com/angusyang901130/Leetcode_Practice/tree/master/3336-water-bottles-ii) |
 ## Array
 |  |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1803-average-waiting-time) |
+| [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -71,4 +74,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
+| [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
