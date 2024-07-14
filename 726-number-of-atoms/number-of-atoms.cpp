@@ -6,7 +6,6 @@ public:
         int base = 1;
         int total_const = 1;
         string cur_atom = "";
-
         stack<int> constant;
 
         for (int i = formula.size()-1; i >= 0; i--){
