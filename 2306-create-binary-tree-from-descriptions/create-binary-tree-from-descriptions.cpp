@@ -12,7 +12,7 @@
 class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
-        vector<int> parent(1e5+1, -1);  
+        unordered_map<int, int> parent; 
         unordered_map<int, TreeNode*> tree;
         int parNum = -1, chdNum = -1;
 
@@ -20,7 +20,7 @@ public:
             parNum = descriptions[i][0];
             chdNum = descriptions[i][1];
 
-            if (parent[parNum] == -1)
+            if (parent.find(parNum) == parent.end())
                 parent[parNum] = 0;
 
             if (tree.find(parNum) == tree.end()){
@@ -41,9 +41,9 @@ public:
         }
 
         TreeNode* root;
-        for (int i = 1; i < parent.size(); i++){
-            if (parent[i] == 0){
-                root = tree[i];
+        for (auto it = parent.begin(); it != parent.end(); it++){
+            if (it->second == 0){
+                root = tree[it->first];
                 break;
             }
         }
