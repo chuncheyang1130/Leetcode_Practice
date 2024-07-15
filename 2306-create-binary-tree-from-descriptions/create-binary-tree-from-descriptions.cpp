@@ -14,11 +14,11 @@ public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         unordered_map<int, int> parent; 
         unordered_map<int, TreeNode*> tree;
-        int parNum = -1, chdNum = -1;
+        // int parNum = -1, chdNum = -1;
 
         for (int i = 0; i < descriptions.size(); i++){
-            parNum = descriptions[i][0];
-            chdNum = descriptions[i][1];
+            int parNum = descriptions[i][0];
+            int chdNum = descriptions[i][1];
 
             if (parent.find(parNum) == parent.end())
                 parent[parNum] = 0;
