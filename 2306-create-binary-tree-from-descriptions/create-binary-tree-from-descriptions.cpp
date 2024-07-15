@@ -14,7 +14,6 @@ public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         unordered_map<int, int> parent; 
         unordered_map<int, TreeNode*> tree;
-        // int parNum = -1, chdNum = -1;
 
         for (int i = 0; i < descriptions.size(); i++){
             int parNum = descriptions[i][0];
@@ -23,15 +22,12 @@ public:
             if (parent.find(parNum) == parent.end())
                 parent[parNum] = 0;
 
-            if (tree.find(parNum) == tree.end()){
-                TreeNode* node = new TreeNode(parNum);
-                tree[parNum] = node;
-            }
+            if (tree.find(parNum) == tree.end())
+                tree[parNum] = new TreeNode(parNum);
+            
 
-            if (tree.find(chdNum) == tree.end()){
-                TreeNode* node = new TreeNode(chdNum);
-                tree[chdNum] = node;
-            }
+            if (tree.find(chdNum) == tree.end())
+                tree[chdNum] = new TreeNode(chdNum);
 
             if (descriptions[i][2])
                 tree[parNum]->left = tree[chdNum];
