@@ -13,7 +13,7 @@ class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         vector<int> parent(1e5+1, -1);  
-        map<int, TreeNode*> tree;
+        unordered_map<int, TreeNode*> tree;
         int parNum = -1, chdNum = -1;
 
         for (int i = 0; i < descriptions.size(); i++){
