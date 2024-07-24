@@ -11,6 +11,7 @@ public:
                     min_col = c;
             }
 
+            
             int r = 0;
             for ( ; r < m; r++){
                 if (matrix[r][min_col] > matrix[iter][min_col])
