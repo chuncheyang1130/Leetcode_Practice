@@ -42,7 +42,6 @@ public:
                 return -1;
         }
 
-
         return timestamp;
     }
 };
