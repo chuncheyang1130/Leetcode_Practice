@@ -20,20 +20,10 @@ public:
 
         sort(logs.begin(), logs.end(), cmp);
 
-        // for (int i = 0; i < logs.size(); i++){
-        //     cout << logs[i][0] << " ";
-        // }
-
-        // cout << endl;
-
         int p1, p2;
         for (int i = 0; i < logs.size(); i++){
             p1 = findParent(parent, logs[i][1]);
             p2 = findParent(parent, logs[i][2]);
-
-            // cout << "=====" << endl;
-            // cout << logs[i][1] << " " << p1 << endl;
-            // cout << logs[i][2] << " " << p2 << endl;
             
             if (p1 == p2)
                 continue;
