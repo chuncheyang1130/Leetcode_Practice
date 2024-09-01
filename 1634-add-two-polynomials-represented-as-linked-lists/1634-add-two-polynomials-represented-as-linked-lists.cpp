@@ -23,6 +23,7 @@ public:
                 cur->next = poly1;
                 break;
             }
+            
 
             if (poly1->power > poly2->power){
                 PolyNode* tmp = poly1;
