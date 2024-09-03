@@ -36,7 +36,6 @@ public:
             total = 0;
         }
         
-
         return total;
     }
 };
