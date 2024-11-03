@@ -3,12 +3,13 @@ public:
     bool rotateString(string s, string goal) {
         int max_turns = goal.size();
 
-        for (int i = 0; i < max_turns; i++){
+        for (int i = 0; i < goal.size(); i++){
             if (s == goal){
                 return true;
             }else{
-                goal.insert(goal.end(), goal[0]);
+                char ch = goal.front();
                 goal.erase(goal.begin());
+                goal.push_back(ch);
             }
         }
 
