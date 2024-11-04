@@ -1,12 +1,19 @@
 class Solution {
 public:
     string makeFancyString(string s) {
-        int len = s.size();
+        if (s.size() == 1)
+            return s;
+            
+        string new_str = "";
+        new_str.push_back(s[0]);
 
-        for (int i = len-2; i >= 1; i--){
-            if (s[i+1] == s[i] && s[i] == s[i-1])
-                s.erase(s.begin()+i);
+        for (int i = 1; i < s.size()-1; i++){
+            if (s[i+1] != s[i] || s[i] != s[i-1])
+                new_str.push_back(s[i]);
         }
-        return s;
+
+        new_str.push_back(s.back());
+
+        return new_str;
     }
 };
