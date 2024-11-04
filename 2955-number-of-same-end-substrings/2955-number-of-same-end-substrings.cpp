@@ -18,7 +18,7 @@ public:
             
             for (int i = 0; i < 26; i++){
                 int n_ch = dp[i][r+1] - dp[i][l];
-                cout << (char)('a'+i) << ": " << n_ch << endl;
+                // cout << (char)('a'+i) << ": " << n_ch << endl;
                 if (n_ch >= 1){
                     ans[q] += n_ch * (n_ch+1) / 2;
                 }
