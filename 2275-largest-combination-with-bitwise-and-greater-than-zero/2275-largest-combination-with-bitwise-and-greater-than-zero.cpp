@@ -4,13 +4,13 @@ public:
 
         int count[30] = {0};
         int val = 1;
-        for (int b = 0; (1 << b) <= 1e7; b++){
+        for (int b = 0; b < 30; b++){
             for (int i = 0; i < candidates.size(); i++){
                 if (candidates[i] & val)
                     count[b]++;
             }
 
-            val *= 2;
+            val = val << 1;
         }
 
         int max_n = count[0];
