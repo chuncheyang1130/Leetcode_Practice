@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<int> arraysIntersection(vector<int>& arr1, vector<int>& arr2, vector<int>& arr3) {
         vector<int> intersec;
-        
         int i = 0, j = 0, k = 0;
         
         while (i < arr1.size() && j < arr2.size() && k < arr3.size()){
