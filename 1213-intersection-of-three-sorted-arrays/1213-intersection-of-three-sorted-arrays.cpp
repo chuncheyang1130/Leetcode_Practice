@@ -13,7 +13,6 @@ public:
                 k++;
             }else {
                 int minimum = min({arr1[i], arr2[j], arr3[k]});
-                // cout << minimum << " " << arr1[i] << " " << arr2[j] << " " << arr3[k] << endl;
                 if (arr1[i] == minimum)
                     i++;
                 if (arr2[j] == minimum)
