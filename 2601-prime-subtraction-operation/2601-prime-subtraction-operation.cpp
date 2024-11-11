@@ -16,8 +16,6 @@ public:
             if (isPrime)
                 prime_vec.push_back(n);
         }
-
-        prime_vec.push_back(0);
         
         bool inc = true;
         for (int i = 0; i < nums.size(); i++){
