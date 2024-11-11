@@ -18,6 +18,7 @@ public:
         }
         
         bool inc = true;
+        
         for (int i = 0; i < nums.size(); i++){
             auto begin_it = lower_bound(prime_vec.begin(), prime_vec.end(), nums[i], greater<int>());
 
