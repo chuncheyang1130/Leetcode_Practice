@@ -13,7 +13,6 @@ public:
                     break;
                 }
             }
-
             if (isPrime)
                 prime_vec.push_back(n);
         }
@@ -34,8 +33,6 @@ public:
                     break;
                 }
             }
-
-            // cout << nums[i] << endl;
 
             if (nums[i] <= prev){
                 inc = false;
