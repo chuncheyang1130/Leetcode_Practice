@@ -3,7 +3,9 @@ public:
     int findParent(int target, vector<int>& parent){
         if (parent[target] == target)
             return target;
-        else return findParent(parent[target], parent);
+        int par = findParent(parent[target], parent);
+        parent[target] = par;
+        return par;
     }
     void dfs(int src, vector<vector<bool>>& connected, vector<bool>& visited){
         for (int dst = 0; dst < connected[src].size(); dst++){
@@ -38,7 +40,7 @@ public:
                 // if (e_cnt[p1] == -1)
                 //     e_cnt[p1] = 0;
 
-                cout << p0 << "/" << p1 << " " << e_cnt[p0] << "/" << e_cnt[p1] << endl;
+                // cout << p0 << "/" << p1 << " " << e_cnt[p0] << "/" << e_cnt[p1] << endl;
                 e_cnt[p0] += e_cnt[p1] + 1;
             }else if (p0 == p1){
                 e_cnt[p0] += 1;
@@ -51,7 +53,7 @@ public:
                 // if (e_cnt[p1] == -1)
                 //     e_cnt[p1] = 0;
                 
-                cout << p0 << "/" << p1 << " " << e_cnt[p0] << "/" << e_cnt[p1] << endl;
+                // cout << p0 << "/" << p1 << " " << e_cnt[p0] << "/" << e_cnt[p1] << endl;
                 e_cnt[p1] += e_cnt[p0] + 1;
             }
         }
