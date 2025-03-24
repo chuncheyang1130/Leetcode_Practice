@@ -8,17 +8,15 @@ public:
         for (int i = 0; i < marked.size(); i++)
             hash_table[marked[i]] = 1;
 
-        dist[s] = 0;
-        
-        int dst, wgt;
-
         for (int i = 0; i < edges.size(); i++)
             edge_matrix[edges[i][0]].push_back(make_pair(edges[i][2], edges[i][1]));
 
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<bool> visited(n, false);
+        dist[s] = 0;
         pq.push(make_pair(dist[s], s));
         
+        int dst, wgt;
         while (!pq.empty()){
             pair<int,int> p = pq.top();
             pq.pop();
