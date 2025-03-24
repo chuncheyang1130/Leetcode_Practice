@@ -16,7 +16,6 @@ public:
             }
         }
 
-
         for (int i = 0; i < marked.size(); i++)
             min_cost = min(min_cost, dist[marked[i]]);
         
