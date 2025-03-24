@@ -26,8 +26,8 @@ public:
             dist[p.second] = p.first;
 
             for (int i = 0; i < edge_matrix[p.second].size(); i++){
-                int dst = edge_matrix[p.second][i].second;
-                int wgt = edge_matrix[p.second][i].first;
+                dst = edge_matrix[p.second][i].second;
+                wgt = edge_matrix[p.second][i].first;
 
                 if (!visited[dst])
                     pq.push(make_pair(p.first+wgt, dst));
