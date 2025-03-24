@@ -15,15 +15,13 @@ public:
         vector<bool> visited(n, false);
         pq.push(make_pair(dist[s], s));
         
-        while (n--){
+        while (!pq.empty()){
             pair<int,int> p = pq.top();
             pq.pop();
 
-            // cout << p.second << " " << p.first << endl;
             if (visited[p.second])
                 continue;
             
-            // cout << p.second << " " << p.first << endl;
             visited[p.second] = true;
             dist[p.second] = p.first;
 
@@ -31,10 +29,8 @@ public:
                 int dst = edge_matrix[p.second][i].second;
                 int wgt = edge_matrix[p.second][i].first;
 
-                if (!visited[dst]){
-                    cout << p.first + wgt << " " << dst << endl;
+                if (!visited[dst])
                     pq.push(make_pair(p.first+wgt, dst));
-                }
 
             }
         }
