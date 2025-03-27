@@ -2,7 +2,7 @@ class Solution {
 public:
     int minimumIndex(vector<int>& nums) {
         // Record number of each value
-        unordered_map<int, int> accum;
+        map<int, int> accum;
         for (int i = 0; i < nums.size(); i++){
             if (accum.find(nums[i]) == accum.end())
                 accum[nums[i]] = 1;
