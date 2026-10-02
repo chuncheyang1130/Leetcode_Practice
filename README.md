@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
