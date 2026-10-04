@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
+| [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
@@ -70,9 +71,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
+| [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1642-water-bottles](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
