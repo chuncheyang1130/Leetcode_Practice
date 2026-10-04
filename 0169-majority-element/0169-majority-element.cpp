@@ -1,7 +1,7 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        unordered_map<int, int> count;
+        map<int, int> count;
         int half = nums.size() / 2;
 
         for (int i = 1; i < nums.size(); i++){
