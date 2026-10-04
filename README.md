@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0031-next-permutation) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
 ## Math
 | Problem Name | Difficulty |
