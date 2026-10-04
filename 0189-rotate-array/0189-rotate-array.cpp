@@ -2,10 +2,14 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int len = nums.size();
+        vector<int> rotated(len);
         k %= len;
 
-        vector<int> ref_vec(nums.end()-k, nums.end());
-        nums.insert(nums.begin(), ref_vec.begin(), ref_vec.end());
-        nums.resize(len);
+        for (int i = 0; i < nums.size(); i++)
+            rotated[(i+k)%len] = nums[i];
+
+        for (int i = 0; i < nums.size(); i++)
+            nums[i] = rotated[i];
+
     }
 };
