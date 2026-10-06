@@ -12,7 +12,7 @@ public:
                 n_left += 1;
             }
         }
-
+        
         return n_move + n_left;
     }
 };
