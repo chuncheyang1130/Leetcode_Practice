@@ -1,14 +1,22 @@
 class Solution {
 public:
     int jump(vector<int>& nums) {
-        vector<int> n_jump(nums.size(), 1e5);
-        n_jump[0] = 0;
-        
+        if (nums.size() == 1)
+            return 0;
+
+        int prev_jump = 0, cur_jump = 0, n_jump = 0;
+
         for (int i = 0; i < nums.size(); i++){
-            for (int j = 1; j <= nums[i] && i+j<nums.size(); j++)
-                n_jump[i+j] = min(n_jump[i+j], n_jump[i]+1);
+            cur_jump = max(cur_jump, i+nums[i]);
+            // cout << "cur_jump: " << cur_jump << endl;
+            if (i == prev_jump){
+                n_jump += 1;
+                prev_jump = cur_jump;
+                if (cur_jump >= nums.size()-1)
+                    break;
+            }
         }
 
-        return n_jump.back();
+        return n_jump;
     }
 };
