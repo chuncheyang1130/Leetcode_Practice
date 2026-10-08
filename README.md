@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 ## Stack
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
@@ -140,4 +142,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
 <!---LeetCode Topics End-->
