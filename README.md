@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
+| [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0088-merge-sorted-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
+| [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -143,4 +145,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
 <!---LeetCode Topics End-->
