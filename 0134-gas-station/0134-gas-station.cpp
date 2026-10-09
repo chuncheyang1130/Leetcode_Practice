@@ -19,7 +19,8 @@ public:
         if (gas.back() < 0)
             return -1;
 
-        return (min_pos+1)%gas.size();
+        min_pos += 1;
+        return min_pos%gas.size();
 
     }
 };
