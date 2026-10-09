@@ -6,9 +6,8 @@ public:
         int min_diff = gas[0];
 
         for (int i = 1; i < gas.size(); i++){
-            gas[i] -= cost[i];
-            gas[i] += gas[i-1];
-            
+            gas[i] = gas[i] - cost[i] + gas[i-1];
+
             if (gas[i] < min_diff){
                 min_pos = i;
                 min_diff = gas[i];
