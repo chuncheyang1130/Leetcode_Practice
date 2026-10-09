@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Sorting
 | Problem Name | Difficulty |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 ## Stack
 | Problem Name | Difficulty |
@@ -105,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 ## Hash Table
@@ -145,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
