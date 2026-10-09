@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
 | [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1642-water-bottles](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
@@ -114,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
+| [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Tree
@@ -153,4 +156,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+## Randomized
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 <!---LeetCode Topics End-->
