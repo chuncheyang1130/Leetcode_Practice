@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0274-h-index/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -164,4 +165,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
