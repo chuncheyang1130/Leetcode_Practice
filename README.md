@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1720-crawler-log-folder](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1803-average-waiting-time) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 ## Greedy
 | Problem Name | Difficulty |
@@ -171,4 +172,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0238-product-of-array-except-self/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2778-sum-of-squares-of-special-elements](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 <!---LeetCode Topics End-->
