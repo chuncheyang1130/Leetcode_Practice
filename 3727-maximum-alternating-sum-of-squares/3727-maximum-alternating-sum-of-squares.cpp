@@ -9,13 +9,10 @@ public:
 
         int l_ptr = 0, r_ptr = nums.size()-1;
         while (l_ptr <= r_ptr){
-            if (l_ptr == r_ptr){
+            if (l_ptr == r_ptr)
                 sum += (long long)nums[l_ptr] * (long long)nums[l_ptr];
-            }
-            else{
-                sum += (long long)nums[l_ptr] * (long long)nums[l_ptr];
-                sum -= (long long)nums[r_ptr] * (long long)nums[r_ptr];
-            }
+            else
+                sum += (long long)nums[l_ptr] * (long long)nums[l_ptr] - (long long)nums[r_ptr] * (long long)nums[r_ptr];
                 
             l_ptr++; 
             r_ptr--;
