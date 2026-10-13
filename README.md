@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2306-create-binary-tree-from-descriptions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
