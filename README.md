@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0013-roman-to-integer/) | Easy |
 | [0189-rotate-array](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0189-rotate-array/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0013-roman-to-integer/) | Easy |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1021-remove-outermost-parentheses/) | Easy |
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0013-roman-to-integer/) | Easy |
 | [0169-majority-element](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0169-majority-element/) | Easy |
 | [0380-insert-delete-getrandom-o1](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
