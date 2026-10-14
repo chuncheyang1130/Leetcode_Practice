@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2645-pass-the-pillow) |
 | [3336-water-bottles-ii](https://github.com/angusyang901130/Leetcode_Practice/tree/master/3336-water-bottles-ii) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
