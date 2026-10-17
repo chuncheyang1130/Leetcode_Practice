@@ -25,7 +25,7 @@ public:
 
     int minSwaps(vector<int>& nums) {
         int count = 0;
-        unordered_map<int, int> mp;
+        map<int, int> mp;
         vector<int> orig_nums(nums.begin(), nums.end());
 
         for (int i = 0; i < nums.size(); i++)
