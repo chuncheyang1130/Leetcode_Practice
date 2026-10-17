@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2778-sum-of-squares-of-special-elements](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/angusyang901130/Leetcode_Practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2846-robot-collisions) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -133,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/angusyang901130/Leetcode_Practice/tree/master/0726-number-of-atoms) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/angusyang901130/Leetcode_Practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/chuncheyang1130/Leetcode_Practice/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
